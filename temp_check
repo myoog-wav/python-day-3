@@ -1,0 +1,17 @@
+def check_temp():
+
+    temp = float(input("What is the temp? "))
+
+    if temp >= 25:
+        print("Its hot!")
+    else:
+        if temp <= 15:
+            print("Its cold!")
+        else:
+            print("Its really nice!")
+
+def main():
+    check_temp()
+
+main()
+
